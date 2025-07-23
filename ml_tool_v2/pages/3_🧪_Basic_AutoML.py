@@ -23,15 +23,12 @@ from sklearn.preprocessing import LabelEncoder
 # Regression models
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
-from sklearn.svm import SVR
-from lightgbm import LGBMRegressor
+
 
 # Classification models
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.naive_bayes import GaussianNB
-from sklearn.svm import SVC
-from lightgbm import LGBMClassifier
 
 # Model evaluation metrics
 from sklearn.metrics import (
